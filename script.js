@@ -52,7 +52,7 @@ function getParks(Limit){
 
 function formatParams (params) {
   if (params.statesCodes.length !==0 ){
-    const stateCodeString = `stateCode=${params.statesCodes.join("&stateCode=")}`;
+    const stateCodeString = `stateCode=${params.statesCodes.join(",")}`;
     delete params.statesCodes;
     const queryItems = Object.keys(params)
   .map(key => `${encodeURIComponent(key)}=${encodeURIComponent(params[key])}`)
