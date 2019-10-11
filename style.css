@@ -1,0 +1,29 @@
+
+input[type="checkbox"]{
+ display:block;
+}
+
+ul {
+  display:flex;
+  flex-direction: column;
+}
+
+.checkboxes {
+  display:flex;
+  flex-direction: row;
+}
+
+form {
+  display:flex;
+  flex-direction: row;
+}
+
+#limit{
+  display:flex;
+  flex-direction:row;
+   height:30px;
+}
+
+#result-list {
+  list-style: none;
+}

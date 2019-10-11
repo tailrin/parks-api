@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Parks API</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <h1>Parks API</h1>
+    <form>
+      <div id="states-wrapper">
+        <label for="states">State(s) to Search: </label>
+        <ul id="checkboxes"></ul>
+      </div>
+      <div id="limit">
+      <label for="limit">Number of Results: </label>
+      <input type="number" name="limit" class="limit" value="10" max= "50" min="1" required>
+      <input type="submit" value="Search">
+      <section class="results hidden">
+          <h2 id="search-results"></h2>
+          <ul id="result-list"></ul>
+      
+        
+        </section>
+      </div>
+      </form>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="states.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
