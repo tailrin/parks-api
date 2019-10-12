@@ -27,3 +27,8 @@ form {
 #result-list {
   list-style: none;
 }
+
+#limit-result {
+ display: flex;
+ flex-direction: column;
+}
