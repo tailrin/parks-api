@@ -26,6 +26,7 @@ form {
 
 #result-list {
   list-style: none;
+ padding: 0px;
 }
 
 #limit-result {
@@ -35,4 +36,8 @@ form {
 
 .hidden {
  display: none;
+}
+
+#limit-results {
+ padding-left: 40px;
 }
