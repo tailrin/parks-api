@@ -32,6 +32,7 @@ function createCheckBoxes(){
       });
      $("#result-list").html(arr.join(""));
     });
+   $('#js-results').removeClass('hidden');
  }
 
 
