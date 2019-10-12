@@ -3,6 +3,10 @@ input[type="checkbox"]{
  display:block;
 }
 
+h1 {
+ text-align: center;
+}
+
 ul {
   display:flex;
   flex-direction: column;
